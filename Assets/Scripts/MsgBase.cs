@@ -41,8 +41,5 @@ public class MsgBase
         // 3003 / 3000 = 1 ,  1 * 3000 = 3000 ,   这个消息属于 是 GameManager 的
         int tempId = msgId / FrameTools.msgSpan;
         return (ManagerIDEnum)(tempId * FrameTools.msgSpan);
-    }
-
-
-	 
+    }	 
 }

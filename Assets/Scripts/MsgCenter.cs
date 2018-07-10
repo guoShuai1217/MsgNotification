@@ -23,6 +23,7 @@ public class MsgCenter : MonoBehaviour
     {
         Instance = this;
 
+        // 需要向什么模块传递信息 , 就 AddComponent 哪个 Manager 脚本
         gameObject.AddComponent<UIManager>();
         
 
